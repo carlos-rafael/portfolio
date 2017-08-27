@@ -1,0 +1,38 @@
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive ! important;
+    text-align:center;
+}
+
+p{
+    text-align:center;
+    font-size: 1.3em;
+}
+#footer{
+
+    position: fixed;
+    height: 2em;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+
+.white{
+    
+}
+
+.topic{
+    font-family: 'Chelsea Market', cursive ! important;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+img{
+margin-bottom:1em;margin-top:1em
+	/*margin-left: auto;
+	margin-right: auto;
+	display: inline;*/
+}

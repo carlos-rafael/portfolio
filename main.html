@@ -1,0 +1,29 @@
+<h1>About Me</h1>
+
+<div class="white">
+<p class="topic" style="display:initial">Name</p><p>{{person.name}}</p>
+
+<p class="topic"  style="margin-bottom:0.5em;display:initial">Age</p><p>{{person.age}}</p>
+<p class="topic" style="margin-bottom:0.5em">Study</p>
+    <div class="row">
+        <div style="text-align:center" ng-repeat="a in person.study">
+            <div class="col-sm-3" >
+                
+                <img class="img-fluid" style="width:10em; height:10em;"src="{{a.im}}" title="{{a.des}}">
+                <h4>{{a.time}}</h4>
+                <p>{{a.des}}</p>
+            </div>
+        </div>
+    </div>
+
+<p class="topic" style="margin-bottom:0.5em">Programming Skills</p>
+
+    <div class="row">
+        <div style="text-align:center" ng-repeat="a in person.skills">
+            <div class="col-sm-4" >
+                <img class="img-fluid" style="width:10em; height:10em; "src="{{a.im}}" title="{{a.des}}">
+                <p>{{a.des}}</p>
+            </div>
+        </div>
+    </div>
+</div>

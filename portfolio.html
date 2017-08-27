@@ -1,0 +1,12 @@
+<h1>Portfolio</h1>
+{{current}}
+    <div class="col-sm-12">
+        <div style="text-align:center" ng-repeat="item in portfolio">
+            <div class="col-sm-3 row" >
+                <img class="img-fluid" style="width:10em; height:10em;"src="{{item.img}}" title="{{item.tec}}">
+                <p class="topic">{{item.nome}}</p>
+                <p>{{item.desc}}</p>
+                <a href="{{item.link}}">View</a>
+            </div>
+        </div>
+    </div>
